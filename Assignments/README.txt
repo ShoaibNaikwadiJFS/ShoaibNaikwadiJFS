@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 My Assignments are yet to complete
+=======
+My Assignments 
+>>>>>>> js-assignments
 Are now completed
 and also submitted 
 =======
