@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-My Assignments are yet to complete
+My Assignments 
 Are now completed
 and also submitted 
 =======
