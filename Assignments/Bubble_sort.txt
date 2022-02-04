@@ -1,0 +1,28 @@
+package com.company;
+
+public class Bubble_sort {
+    public static void bubbleSort ( int num[]){
+        int n = num.length;
+        for (int i = 0; i < n - 1; i++) {
+            for (int j = 0; j < n - i - 1; j++) {
+                if (num[j] > num[j + 1]) {
+                    int temp = num[j];
+                    num[j] = num[j + 1];
+                    num[j + 1] = temp;
+                }
+            }
+        }
+    }
+    public static void main(String[] args) {
+        int[] num = {5, 12, 14, 6, 78, 19, 1, 23, 26, 35, 37, 7, 52, 86, 47};
+        System.out.println("Array before sorting");
+        for (int i=0;i<num.length;i++){
+            System.out.print(num[i]+" ");
+        }
+        System.out.println();
+        bubbleSort(num);
+        System.out.println("Array after sort");
+        for(int i=0;i<num.length;i++)
+            System.out.print(num[i]+" ");
+    }
+}
